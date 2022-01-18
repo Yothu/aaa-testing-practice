@@ -2,6 +2,7 @@
 # AAA-TESTING-TEST
 
 > This project is just for practicing the AAA pattern for testing code.
+> The instructions for this project are [here](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/testing/testing_practice.md).
 
 ## Built With
 
