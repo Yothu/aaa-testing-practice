@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/task1.js":
+/***/ "./src/task4.js":
 /*!**********************!*\
-  !*** ./src/task1.js ***!
+  !*** ./src/task4.js ***!
   \**********************/
 /***/ ((module) => {
 
-eval("const stringLength = (string) => {\n  if (typeof string === 'string' && string.length >= 1 && string.length <= 10) {\n    return true;\n  }\n  return false;\n};\n\nmodule.exports = stringLength;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task1.js?");
+eval("const capitalize = (string) => {\n  if (typeof string === 'string') {\n    if (string.length > 0) {\n      let capitalizedString = string[0].toUpperCase() + string.slice(1);\n      return capitalizedString;\n    }\n  }\n  return null;\n};\n\nmodule.exports = capitalize;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task4.js?");
 
 /***/ })
 
@@ -50,7 +50,7 @@ eval("const stringLength = (string) => {\n  if (typeof string === 'string' && st
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/task1.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/task4.js");
 /******/ 	
 /******/ })()
 ;

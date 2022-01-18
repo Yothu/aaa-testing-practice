@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/task1.js":
+/***/ "./src/task3.js":
 /*!**********************!*\
-  !*** ./src/task1.js ***!
+  !*** ./src/task3.js ***!
   \**********************/
 /***/ ((module) => {
 
-eval("const stringLength = (string) => {\n  if (typeof string === 'string' && string.length >= 1 && string.length <= 10) {\n    return true;\n  }\n  return false;\n};\n\nmodule.exports = stringLength;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task1.js?");
+eval("class Calculator {\n  add(x = 0, y = 0) {\n    if (typeof x === 'number' && typeof y === 'number') {\n      return x + y;\n    }\n    return null;\n  }\n\n  subtract(x = 0, y = 0) {\n    if (typeof x === 'number' && typeof y === 'number') {\n      return x - y;\n    }\n    return null;\n  }\n\n  divide(x = 1, y = 1) {\n    if (typeof x === 'number' && typeof y === 'number') {\n      if (y > 0) {\n        return x/y;\n      }\n      return undefined;\n    }\n    return null;\n  }\n\n  multiply(x = 1, y = 1) {\n    if (typeof x === 'number' && typeof y === 'number') {\n      return x * y;\n    }\n    return null;\n  }\n}\n\nmodule.exports = Calculator;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task3.js?");
 
 /***/ })
 
@@ -50,7 +50,7 @@ eval("const stringLength = (string) => {\n  if (typeof string === 'string' && st
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/task1.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/task3.js");
 /******/ 	
 /******/ })()
 ;

@@ -8,4 +8,3 @@ test("Function returns the length of a string", () => {
   // Assert
   expect(receivedStringLength).toBe(true);
 });
-

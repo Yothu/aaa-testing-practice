@@ -14,11 +14,20 @@ class Calculator {
   }
 
   divide(x = 1, y = 1) {
-    return x/y;
+    if (typeof x === 'number' && typeof y === 'number') {
+      if (y > 0) {
+        return x/y;
+      }
+      return undefined;
+    }
+    return null;
   }
 
   multiply(x = 1, y = 1) {
-    return x * y;
+    if (typeof x === 'number' && typeof y === 'number') {
+      return x * y;
+    }
+    return null;
   }
 }
 

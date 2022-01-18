@@ -15,7 +15,7 @@
   \**********************/
 /***/ ((module) => {
 
-eval("const reverseString = (string) => {\n  let reversedString = '';\n  for (let i = string.length - 1; i >= 0; i -= 1) {\n    reversedString += string[i];\n  }\n  return reversedString;\n};\n\nmodule.exports = reverseString;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task2.js?");
+eval("const reverseString = (string) => {\n  let reversedString = '';\n  if (typeof string === 'string') {\n    for (let i = string.length - 1; i >= 0; i -= 1) {\n      reversedString += string[i];\n    }\n    return reversedString;\n  }\n  return null;\n};\n\nmodule.exports = reverseString;\n\n\n//# sourceURL=webpack://testing-exercise/./src/task2.js?");
 
 /***/ })
 
