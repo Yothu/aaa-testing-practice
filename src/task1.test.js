@@ -1,4 +1,5 @@
-const stringLength = require('./task1');
+// const stringLength = require('./task1');
+import { stringLength } from './task1';
 
 test("Function returns the length of a string", () => {
   // Arrange

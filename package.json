@@ -4,15 +4,15 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "start": "webpack serve --open",
-    "build": "webpack",
-    "test": "jest"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.7",
     "webpack": "^5.66.0",

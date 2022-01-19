@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1642608003360" clover="3.2.0">
+  <project timestamp="1642608003361" name="All files">
+    <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="9" coveredelements="6" complexity="0" loc="7" ncloc="7" packages="1" files="2" classes="2"/>
+    <file name="m1.js" path="/home/shiya/Documents/work/microverse/m-2/w-3/aaa-testing-practice/src/m1.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="m2.js" path="/home/shiya/Documents/work/microverse/m-2/w-3/aaa-testing-practice/src/m2.js">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

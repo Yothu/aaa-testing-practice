@@ -1,4 +1,4 @@
-const reverseString = (string) => {
+const reverseString = (string) => {z
   let reversedString = '';
   if (typeof string === 'string') {
     for (let i = string.length - 1; i >= 0; i -= 1) {
